@@ -21,6 +21,23 @@
 .col-12 {width: 100%;}
 .col-13{ width: 20%;}
 
+@media (max-width: 750px)
+{
+	.col-m-1 {width: 8.33%;}
+	.col-m-2 {width: 16.66%;}
+	.col-m-3 {width: 25%;}
+	.col-m-4 {width: 33.33%;}
+	.col-m-5 {width: 41.66%;}
+	.col-m-6 {width: 50%;}
+	.col-m-7 {width: 58.33%;}
+	.col-m-8 {width: 66.66%;}
+	.col-m-9 {width: 75%;}
+	.col-m-10 {width: 83.33%;}
+	.col-m-11 {width: 91.66%;}
+	.col-m-12 {width: 100%;}
+	.col-m-13{ width: 20%;}
+}
+
 .row::after {
 	width: 100%;
     content: "";
@@ -136,111 +153,4 @@ footer{
 .contact-links a:Hover{
 	font-style: italic;	
 }
-
-
-
-/*header {
-	background-color: #089de3;
-	-ms-grid-columnn-span:5;
-	-ms-grid-row:1;
-}
-
-nav {
-	-ms-grid-column-span:5;
-	-ms-grid-row:2;
-}
-
-#content{
-	-ms-grid-column:3;
-	-ms-grid-row:3;
-}
-
-footer {	
-	bottom: 0;
-	 text-align: center;
-	width: 100%;
-	 position:relative;
-	background-color: #089de3;
-	-ms-grid-row:5;
-	-ms-grid-column-span:5;
-}
-h1 {
-	text-align: center;
-}
-
-.nav-bar{
-	text-align: center;
-	background-color: #089de3;
-	width: 100%;
-}
-
-.nav-bar a {
-    padding-left: 25px;
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.nav-Prva:Hover{
-	font-style: italic;	
-}
-
-.login{
-	text-color	:blue;
-	padding-top:3%;
-	float:right;
-	font-size: medium;
-}
-
-
-
-.content h2 {
-	text-align: center;
-	
-}
-
-.MCGALV{
-	display: inline-block;
-	vertical-align: top;
-}
-.MCGALV p {
-	font-size: 20px
-	float:right;
-
-}
-
-
-.CORJOH{
-	display: inline-block;
-	vertical-align: top;
-}
-.CORJOH p {
-	font-size: 20px
-	float:right;
-
-}
-
-
-
-.NUNROU{
-	display: inline-block;
-	vertical-align: top;
-}
-.NUNROU p {
-	font-size: 20px
-	float:right;
-
-}
-.content img {
-	float:left;
-}
-
-
-
-.search {
-	padding-top: 8px;
-
-}
-
 

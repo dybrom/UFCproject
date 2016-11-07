@@ -4,12 +4,15 @@ Uradjena je stranica za UFC ( Ultimate Fighting Championship) sa pocetnom strani
 
 Uradjen je osnovni html i css izgled stranica.
 
-Svaka stranica je pravljena sa grid dizajnom.
+Svaka stranica je pravljena sa grid dizajnom i responsive je.
 
-II.
 
-Nije uradjen detaljniji css izgled stranica.
-Pokusao sam da napravim za mobile ali nisam uspio tako da nisam stavio nikakav kod, isto i za responsive.
+IV.
+
+Kolone iako su definisane iste velicine ne prikazuje ih iste velicine.
+U nekim slucajevima username i password na home pageu nisu dobro pozicionirani.
+
+
 
 V.
 
