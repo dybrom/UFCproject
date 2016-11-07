@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron:500');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+
+
+* {
+	box-sizing:border-box;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+.col-13{ width: 20%;}
+
+.row::after {
+	width: 100%;
+    content: "";
+    clear: both;
+    display: block;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    height: 100%;
+
+}
+p {
+	font-size: 20px;
+}
+.home_user{
+	background-color: #089de3;
+}
+body {
+	font-family: 'Open Sans Condensed', sans-serif;
+	width: 100%;
+	display: inline-block;
+	margin:0px;
+	background-color: lightgray;
+	height: 100%;
+}
+
+.buttons {
+
+	text-align: center;
+}
+.login {
+	text-align: center;
+}
+
+.home_user img {
+	padding:10px;
+}
+.content img {
+	height: 100%;
+	width: 100%;
+	padding : 20px;
+}
+.content{
+	text-align: center;
+	font-size: 20px;
+}
+.navigation{
+	background-color: brown;
+	border: 3px solid red;
+
+}
+.navigation .col-13 {
+	text-align: center;
+	border : 3px solid red;
+}
+
+.navigation a {
+    padding-left: 25px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-Prva:Hover{
+	font-style: italic;	
+}
+
+.headline {
+	text-align: center;
+}
+
+
+footer{
+	text-align: center;
+	font-size: 30px;
+	background-color:#089de3; 
+}
+
+.search{
+	font-size: 27px;
+	text-align: center;
+}
+
+.content .row .contact_form .message {
+	resize:none;
+}
+
+.contact_form{
+	text-align: center;
+}
+
+
+
+
+
+.contact_footer{
+	position: absolute;
+	bottom:0;
+	width: 100%;
+}
+
+.contact-links a {
+    padding-left: 25px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contact-links a:Hover{
+	font-style: italic;	
+}
+
+
+
+/*header {
+	background-color: #089de3;
+	-ms-grid-columnn-span:5;
+	-ms-grid-row:1;
+}
+
+nav {
+	-ms-grid-column-span:5;
+	-ms-grid-row:2;
+}
+
+#content{
+	-ms-grid-column:3;
+	-ms-grid-row:3;
+}
+
+footer {	
+	bottom: 0;
+	 text-align: center;
+	width: 100%;
+	 position:relative;
+	background-color: #089de3;
+	-ms-grid-row:5;
+	-ms-grid-column-span:5;
+}
+h1 {
+	text-align: center;
+}
+
+.nav-bar{
+	text-align: center;
+	background-color: #089de3;
+	width: 100%;
+}
+
+.nav-bar a {
+    padding-left: 25px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-Prva:Hover{
+	font-style: italic;	
+}
+
+.login{
+	text-color	:blue;
+	padding-top:3%;
+	float:right;
+	font-size: medium;
+}
+
+
+
+.content h2 {
+	text-align: center;
+	
+}
+
+.MCGALV{
+	display: inline-block;
+	vertical-align: top;
+}
+.MCGALV p {
+	font-size: 20px
+	float:right;
+
+}
+
+
+.CORJOH{
+	display: inline-block;
+	vertical-align: top;
+}
+.CORJOH p {
+	font-size: 20px
+	float:right;
+
+}
+
+
+
+.NUNROU{
+	display: inline-block;
+	vertical-align: top;
+}
+.NUNROU p {
+	font-size: 20px
+	float:right;
+
+}
+.content img {
+	float:left;
+}
+
+
+
+.search {
+	padding-top: 8px;
+
+}
+
+
