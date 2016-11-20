@@ -6,7 +6,7 @@
     <title>WT PROJEKAT</title>
 </head>
 
-<body>
+<body onload="load()">
 
 
 
@@ -44,25 +44,46 @@
     </div>
 </div>
 
+
+
+
+
+
+ 
+
     <div class="content">
         <div class="row">
             <div class="col-6">
-                <form class="contact_form">
+                <form class="contact_form" name="contact_form" onsubmit="return checkContact()" method="post">
+
                     <div>
+
                         <label for="name">Your name:</label><br />
-                        <input name="name" type="text" value="" size="30" /><br />
+                        <input type="text" name="name" id="name1" size="30"><br />
+                        <div id="name_error" class="val_error"></div>
+ 
                     </div>
                     <div>
+
                         <label for="email">Your email:</label><br />
-                        <input name="email" type="text" value="" size="30" /><br />
+                        <input type="text" name="email" id="email" size="30"><br />
+                        <div id="email_error" class="val_error"></div>
+
                     </div>
                     <div>
+
                         <label for="message">Your message:</label><br />
-                        <textarea class="message" rows="7" cols="30"></textarea><br />
+                        <textarea class="message" rows="7" cols="30" id="message"></textarea><br />
+                        <div id="message_error" class="val_error"></div>
+
                     </div>
-                    <input id="submit_button" type="submit" value="Send email" />
+
+                    <input id="submit_button" type="submit" value="Send email" onClick="SaveForm()"/>
+
                 </form>
+
             </div>
+            
             <div class="contact-links">
                 <div class="col-6">
                     <div class="row">
@@ -83,6 +104,7 @@
                     </div>
                 </div>
             </div>
+            
         </div>
     </div>
 
@@ -93,7 +115,7 @@
         ETF Sarajevo Web Tehnologije © All rights reserved
     </footer>
 
-    <script src="app.js"></script>
+    <script src="js/contactValidacija.js"></script>
 
 </body>
 

@@ -6,7 +6,7 @@
     <title>WT PROJEKAT</title>
 </head>
 
-<body>
+<body onload="load()">
 
     <div class="home_user">
         <div class=row>
@@ -42,18 +42,28 @@
 </div>
 
 
+         
+                      
+
+
 
 
     <div class="content">
         <div class="row">
-            <div class="col-12">
-                <form class="search">
-                    <label for="search">Search: </label><br>
-                    <input id="search" name="search" type="search">
-            </div>
-        </div>
+            <div class="col-12 col-m-12">
+                <form class="searchForm" onsubmit="return checkSearch()" method="post">
+                    <div>
+                    <label for="search">Search: </label>
+                    <input type="search" name="search"  id="search"  placeholder="Search">
+                    <div id="search_error" class="val_error"></div>
+                </div>
+                <input type="submit" value="search" class="btn" onclick="SaveForm()">
+           
+        
         </form>
-
+    </div>
+        </div>
+   
         <div class="row">
             <div class="col-12">
                 <p>The Ultimate Fighting Championship (UFC) is a mixed martial arts (MMA) promotion, founded in 1993 by Art Davie and Rorion Gracie. The organization was purchased from its parent company SEG in 2001 by Zuffa LLC, a promotional company owned by Las Vegas casino magnates, Jonny Moore and Frank Fertitta and managed by Dana White (current president of operations). Since its inception, and through its current Zuffa management, the UFC has remained one of the more dominant MMA promotions in the world, playing host to a wide field of MMA fighters.</p>
@@ -70,15 +80,14 @@
             </div>
         </div>
     </div>
-
-
+</div>
 
 
     <footer>
         ETF Sarajevo Web Tehnologije © All rights reserved
     </footer>
 
-    <script src="app.js"></script>
+    <script src="js/fightersValidacija.js"></script>
 
 </body>
 
