@@ -1,5 +1,5 @@
 
-	
+	if(document.getElementById('mainImage')!=null){
 
 		var mainImage = document.getElementById('mainImage');
 	var mainImageCaption = document.getElementById('mainImageCaption');
@@ -34,4 +34,5 @@ mainImage.onmouseover = function() {
 
 mainImage.onmouseout = function () {
 	rotateAction = setInterval(changeImage, 5000);
+}
 }

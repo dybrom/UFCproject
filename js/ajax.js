@@ -25,7 +25,6 @@ function Prikazi(x) {
     ajax.open("GET", x, true);
     ajax.send();
     delete sc;
-    delete sc1;
 }
 
 window.onload = Prikazi.bind(this, "ajax/Start.html")
