@@ -1,18 +1,19 @@
 
+	
 
-
-	var mainImage = document.getElementById('mainImage');
+		var mainImage = document.getElementById('mainImage');
 	var mainImageCaption = document.getElementById('mainImageCaption');
+
+
+function changeImage() {
+
+
 
 	var imageArray = ["UFC_100.jpg", "UFC_101.jpg", "UFC_102.jpg"];
 	var captionArray = ["UFC 100", "UFC 101", "UFC 102"];
 
 	var imageIndex = 1;
 	var captionIndex = 1;
-
-
-
-function changeImage() {
 	mainImage.setAttribute("src", imageArray[imageIndex]);
 	mainImage.setAttribute("alt", captionArray[captionIndex]);
 	mainImageCaption.innerHTML = captionArray[captionIndex];
@@ -22,9 +23,10 @@ function changeImage() {
 		imageIndex = 0;
 		captionIndex = 0;
 	}
+
 }
 
-var rotateAction = setInterval(changeImage, 5000);
+	var rotateAction = setInterval(changeImage, 5000);
 
 mainImage.onmouseover = function() {
 	clearInterval(rotateAction);

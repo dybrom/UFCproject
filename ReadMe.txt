@@ -6,11 +6,22 @@ Uradjen je osnovni html i css izgled stranica.
 
 Svaka stranica je pravljena sa grid dizajnom i responsive je.
 
+Postavio sam funkcije validacije u validacije.js i pozvao sam je u ajax.js
+Pomocu ajaxa sam postavio da mi se podstranice ne ucitavaju, nego da se samo mijenja body.
+Napravio sam carousel u kojem se slike mijenjaju svakih 5 sec.
+Napravio sam localstorage da se podaci koji su upisani u formi na klik buttona snime
+i da se ucitaju u iducem loadu forme.
+
 
 IV.
 
 Kolone iako su definisane iste velicine ne prikazuje ih iste velicine.
 U nekim slucajevima username i password na home pageu nisu dobro pozicionirani.
+
+AboutUs podstranica ima cudan bug koji je ocit :D
+
+Carousel bez ajaxa je radio kako treba, ali sa ajaxom samo se promijeni prva slika
+na drugu i onda stane.
 
 
 
@@ -31,4 +42,11 @@ Contact.html - podstranica sa html izgledom. Sadrzi sliku loga, tekst, forme za 
 app.css - sav kod za dizajn
 
 skice - slike sa skicama
+validacije.js - validacije za sve forme
+
+ajax.js - kod koji dozvoljava da se podstranice ne ucitavaju, nego da se mijenja
+samo sadrzaj body-a
+
+
+
 

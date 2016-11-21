@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="app.css">
+    <title>WT PROJEKAT</title>
+</head>
+
+<body >
+
+    <div class="content">
+        <div class="row">
+            <div class="col-6">
+                <form class="contact_form" name="contact_form" onsubmit="return checkContact()" method="post">
+
+                    <div>
+
+                        <label for="name">Your name:</label><br />
+                        <input type="text" name="name" id="name1" size="30"><br />
+                        <div id="name_error" class="val_error"></div>
+ 
+                    </div>
+                    <div>
+
+                        <label for="email">Your email:</label><br />
+                        <input type="text" name="email" id="email" size="30"><br />
+                        <div id="email_error" class="val_error"></div>
+
+                    </div>
+                    <div>
+
+                        <label for="message">Your message:</label><br />
+                        <textarea class="message" rows="7" cols="30" id="message"></textarea><br />
+                        <div id="message_error" class="val_error"></div>
+
+                    </div>
+
+                    <input id="submit_button" type="submit" value="Send email" onClick="SaveContact()"/>
+
+                </form>
+
+            </div>
+            
+            <div class="contact-links">
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col-12">
+                            <p> You can contacts us also on :
+                                <p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <a href="https://www.facebook.com/UFC/"> Facebook </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <a href="https://www.instagram.com/ufc/"> Instagram </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="row">
+
+            <div class="col-2">
+            </div>
+            <div class="col-8">
+
+                    <p>
+                           You can help improve This page by giving us feedback with any problems you're having on your computer.
+
+                        Enter your name, email and message us about the bug you have discovered.
+                        Add details, including steps to help us recreate the issue you're experiencing.
+                    
+                        To submit the report, click Send Email.
+                        We appreciate your help! In most cases we won't be able to send you an individual response, but we'll investigate your report and use the information you provide to improve this page.
+                        <br> <br>
+
+                        Development team 
+                    </p>    
+            </div>
+            <div class="col-2">
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
