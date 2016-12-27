@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<korisnici>
+	<korisnik>
+		<username>arif</username>
+		<password>arif</password>
+	</korisnik>
+	<korisnik>
+		<username>novi</username>
+		<password>test</password>
+	</korisnik>
+<korisnik><username>korisnik</username><password>korisnik</password></korisnik><korisnik><username>admin</username><password>admin</password></korisnik></korisnici>
