@@ -37,16 +37,19 @@
     ?>
         <div class="home_user">
             <div class=row>
-                <div class="col-4">
+                <div class="col-3">
                     <a href="Index.php">
                         <img src="images/ufc_logo.png" >
                     </a>
                 </div>
-                <div class="col-4">
+                <div class="col-3">
                     <a href="logout.php"> Logout </a>
                 </div>
-                 <div class="col-4">
+                 <div class="col-3">
                     <a href="csv.php"> CSV download </a>
+                </div>
+                <div class="col-3">
+                    <a href="pdf.php"> PDF download </a>
                 </div>
 
                 </div>
