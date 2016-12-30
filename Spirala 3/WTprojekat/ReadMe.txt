@@ -6,5 +6,10 @@ _ Omogucen je download podataka za sve usere u obliku csv ili pdf fajla.
 
 -Search nisam uspio implementirati do kraja.
 
--Uradjen je deployment.
 
+
+
+username: arif
+password: arif
+
+za admina
